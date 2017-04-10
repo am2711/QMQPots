@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ldq.app.com.qmqpots.MainActivity">
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="63dp" />
+
+    <Spinner
+        android:id="@+id/spinner_pots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_name"
+        android:layout_alignStart="@+id/editText_name"
+        android:layout_below="@+id/editText_name"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editText_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_pot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_name"
+        android:layout_alignTop="@+id/spinner_pots"
+        android:text="Pot" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spinner_pots"
+        android:layout_below="@+id/spinner_pots"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="57dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/spinner_pots"
+        android:layout_below="@+id/btn_submit"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="Show registrations" />
+
+    <Button
+        android:id="@+id/btn_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_show"
+        android:layout_below="@+id/btn_show"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="26dp"
+        android:text="Team Selector" />
+
+</RelativeLayout>

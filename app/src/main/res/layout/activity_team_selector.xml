@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ldq.app.com.qmqpots.TeamSelector">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pot 2"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="59dp"
+        android:layout_above="@+id/editText_2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="26dp" />
+
+    <EditText
+        android:id="@+id/editText_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Pot 2"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="95dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp" />
+
+    <EditText
+        android:id="@+id/editText_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Pot 3"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="245dp"
+        android:layout_marginBottom="69dp"
+        android:layout_above="@+id/btn_show_det"
+        android:layout_alignStart="@+id/editText_2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pot 3"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="184dp"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/editText_3"
+        android:layout_alignStart="@+id/btn_show_det"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/btn_show_det"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="157dp"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="335dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
