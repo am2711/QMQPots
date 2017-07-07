@@ -1,0 +1,268 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:5:5-83
+MERGED from [com.firebaseui:firebase-ui-database:0.4.1] /home/mayank/.android/build-cache/621107e4f5c305e4d8f1b2f41f7f427607dd19d4/output/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/mayank/.android/build-cache/c176ed137e17f056d12895488fec18f797fb8b57/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:7:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/mayank/.android/build-cache/1f90cd784e0fa2d4451549311cd93ab7a6a56c15/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] /home/mayank/.android/build-cache/c9b5043c75e1bb4571da69e562965fec1a62a8e3/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.2.0] /home/mayank/.android/build-cache/8cbe1e3c660844800d7f3f451401ac06b212a8fc/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /home/mayank/.android/build-cache/da5efa6ec72630e798068de042e5e8044540e540/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/mayank/.android/build-cache/4774c3f75cb5f7cf9b16c9bffa18af88526671a9/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/mayank/.android/build-cache/70494f785f73ca1e3c758acb78a745839e947e69/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/mayank/.android/build-cache/f8484f5524ad863d3a3437abff0f748147c5fd69/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/mayank/.android/build-cache/116a53d9d7e0031fa2fc32b24d5484944c4dbe0d/output/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-core:10.0.1] /home/mayank/.android/build-cache/44aafe2f9916e7dbfba3c048847d0199c51aa058/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/mayank/.android/build-cache/c176ed137e17f056d12895488fec18f797fb8b57/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/mayank/.android/build-cache/1e43c0e0381b5028e738ce396cfb2cc08e9593f4/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/mayank/.android/build-cache/16d386e481340de7b430e40ac22b387ec8d56219/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/mayank/.android/build-cache/5361b514b48ac9ca0a62625ba99181d91f41227e/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /home/mayank/.android/build-cache/69317e7e7dfe466880b4130f632f9fdc352b6da9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/mayank/.android/build-cache/d71b1515a5800b0834285f776f08fc357337397b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/mayank/.android/build-cache/221dde56de9a7d19c05f43ef4018bb926ddfdcea/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/mayank/.android/build-cache/2185d41278f6188b16b26d1d93da2ebea1c70456/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/mayank/.android/build-cache/8648249de5b485b61fb9595c7a71e67a3bc400e7/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/mayank/.android/build-cache/0506cc388e33c4a2a9d83a310ea0761d28192420/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:13:9-47
+activity#ldq.app.com.qmqpots.MainActivity
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:14:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:18:27-73
+activity#ldq.app.com.qmqpots.SplashScreen
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:21:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:22:13-26:29
+category#android.intent.category.LAUNCHER
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:25:27-74
+activity#ldq.app.com.qmqpots.LoginActivity
+ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml:28:19-48
+uses-sdk
+INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /home/mayank/.android/build-cache/1f90cd784e0fa2d4451549311cd93ab7a6a56c15/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] /home/mayank/.android/build-cache/c9b5043c75e1bb4571da69e562965fec1a62a8e3/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.2.0] /home/mayank/.android/build-cache/8cbe1e3c660844800d7f3f451401ac06b212a8fc/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:10.0.1] /home/mayank/.android/build-cache/bb44fe8b754906553728d3da2d81137f49b86b0d/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:10.0.1] /home/mayank/.android/build-cache/12afacafe53b3438219c273825639035802bb58b/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /home/mayank/.android/build-cache/da5efa6ec72630e798068de042e5e8044540e540/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:10.0.1] /home/mayank/.android/build-cache/d53f37893223eebe4800de158845d95ffcc58ce6/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/mayank/.android/build-cache/4774c3f75cb5f7cf9b16c9bffa18af88526671a9/output/AndroidManifest.xml:17:5-42
+MERGED from [com.firebaseui:firebase-ui-database:0.4.1] /home/mayank/.android/build-cache/621107e4f5c305e4d8f1b2f41f7f427607dd19d4/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/mayank/.android/build-cache/70494f785f73ca1e3c758acb78a745839e947e69/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/mayank/.android/build-cache/f8484f5524ad863d3a3437abff0f748147c5fd69/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/mayank/.android/build-cache/116a53d9d7e0031fa2fc32b24d5484944c4dbe0d/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /home/mayank/.android/build-cache/b110578fd419dfaaa72ab34faac8e6036185172a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:10.0.1] /home/mayank/.android/build-cache/1e63c40f23649521e7dfa27a7f4d983492cd3644/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] /home/mayank/.android/build-cache/a20f876f94eaf1c739804bfa2d8dcea3524a297a/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-core:10.0.1] /home/mayank/.android/build-cache/44aafe2f9916e7dbfba3c048847d0199c51aa058/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/mayank/.android/build-cache/c176ed137e17f056d12895488fec18f797fb8b57/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] /home/mayank/.android/build-cache/1e43c0e0381b5028e738ce396cfb2cc08e9593f4/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/mayank/.android/build-cache/16d386e481340de7b430e40ac22b387ec8d56219/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /home/mayank/.android/build-cache/5361b514b48ac9ca0a62625ba99181d91f41227e/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.2.0] /home/mayank/.android/build-cache/69317e7e7dfe466880b4130f632f9fdc352b6da9/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /home/mayank/.android/build-cache/d71b1515a5800b0834285f776f08fc357337397b/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/mayank/.android/build-cache/221dde56de9a7d19c05f43ef4018bb926ddfdcea/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/mayank/.android/build-cache/2185d41278f6188b16b26d1d93da2ebea1c70456/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/mayank/.android/build-cache/8648249de5b485b61fb9595c7a71e67a3bc400e7/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /home/mayank/.android/build-cache/0506cc388e33c4a2a9d83a310ea0761d28192420/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] /home/mayank/.android/build-cache/c9b5043c75e1bb4571da69e562965fec1a62a8e3/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mayank/Android/Projects/QMQPots/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /home/mayank/.android/build-cache/ae21958403513eeae03439db0b7a9d5f6164049e/output/AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/mayank/.android/build-cache/4774c3f75cb5f7cf9b16c9bffa18af88526671a9/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/mayank/.android/build-cache/4774c3f75cb5f7cf9b16c9bffa18af88526671a9/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/mayank/.android/build-cache/4774c3f75cb5f7cf9b16c9bffa18af88526671a9/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /home/mayank/.android/build-cache/4774c3f75cb5f7cf9b16c9bffa18af88526671a9/output/AndroidManifest.xml:19:19-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/mayank/.android/build-cache/c176ed137e17f056d12895488fec18f797fb8b57/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/mayank/.android/build-cache/c176ed137e17f056d12895488fec18f797fb8b57/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/mayank/.android/build-cache/c176ed137e17f056d12895488fec18f797fb8b57/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /home/mayank/.android/build-cache/c176ed137e17f056d12895488fec18f797fb8b57/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /home/mayank/.android/build-cache/e051e9629a1db493db6c2d1f5987a03520a2ef98/output/AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /home/mayank/.android/build-cache/91f103dcbb3ee5805e8be8f2e3a827ab19341d7e/output/AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] /home/mayank/.android/build-cache/1e43c0e0381b5028e738ce396cfb2cc08e9593f4/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/mayank/.android/build-cache/1e43c0e0381b5028e738ce396cfb2cc08e9593f4/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/mayank/.android/build-cache/1e43c0e0381b5028e738ce396cfb2cc08e9593f4/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/mayank/.android/build-cache/1e43c0e0381b5028e738ce396cfb2cc08e9593f4/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /home/mayank/.android/build-cache/1e43c0e0381b5028e738ce396cfb2cc08e9593f4/output/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/mayank/.android/build-cache/5361b514b48ac9ca0a62625ba99181d91f41227e/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/mayank/.android/build-cache/5361b514b48ac9ca0a62625ba99181d91f41227e/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /home/mayank/.android/build-cache/5361b514b48ac9ca0a62625ba99181d91f41227e/output/AndroidManifest.xml:20:20-65

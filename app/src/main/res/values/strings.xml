@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">QMQPots</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_text">Authentication</string>
+    <string name="signed_out">Signed out</string>
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="default_web_client">515261226862-3ua1m3jh8toak5ii8rl60hnusulkv2d8.apps.googleusercontent.com</string>
 </resources>

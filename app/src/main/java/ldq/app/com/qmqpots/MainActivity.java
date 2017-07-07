@@ -1,119 +1,74 @@
 package ldq.app.com.qmqpots;
 
-import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Spinner;
-import android.widget.Toast;
+import android.support.v7.widget.Toolbar;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class MainActivity extends AppCompatActivity {
 
-    Button btn_submit, btn_show, btn_team;
-    EditText editText_name;
-    Spinner spinner_pots;
-    public String pots;
-    DatabaseHandler db;
+    private Toolbar toolbar;
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        db = new DatabaseHandler(this);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        btn_submit = (Button)findViewById(R.id.btn_submit);
-        btn_show = (Button)findViewById(R.id.btn_show);
-        btn_team = (Button)findViewById(R.id.btn_team);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        editText_name = (EditText)findViewById(R.id.editText_name);
-        spinner_pots = (Spinner)findViewById(R.id.spinner_pots);
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        setupViewPager(viewPager);
 
-        btn_submit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                submit();
-            }
-        });
-        btn_show.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showRegs();
-            }
-        });
-        btn_team.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                teamSelector();
-            }
-        });
-
-        spinner_pots.setOnItemSelectedListener(this);
-
-        List<String> categories = new ArrayList<String>();
-
-        categories.add("Pot 1");
-        categories.add("Pot 2");
-        categories.add("Pot 3");
-
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,categories);
-
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner_pots.setAdapter(dataAdapter);
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
     }
 
-    public void submit() {
+    private void setupViewPager(ViewPager viewPager) {
+        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFragment(new RegisterFragment(), "Register");
+        adapter.addFragment(new ShowRegs(), "Show Registrations");
+        adapter.addFragment(new TeamSelector(), "Team Selector");
+        viewPager.setAdapter(adapter);
+    }
 
-        String name = new String(editText_name.getText().toString());
+    class ViewPagerAdapter extends FragmentPagerAdapter {
+        private final List<Fragment> mFragmentList = new ArrayList<>();
+        private final List<String> mFragmentTitleList = new ArrayList<>();
 
-        if (name.isEmpty()) {
-            Toast.makeText(this, "Please fill in name!", Toast.LENGTH_SHORT).show();
-        }
-        else {
-
-            Details details = new Details(name, pots);
-
-            //DatabaseHandler db = new DatabaseHandler(this);
-            Log.d("Inserting... ", "Inserting...");
-
-            db.addDetails(details,this);
+        public ViewPagerAdapter(FragmentManager manager) {
+            super(manager);
         }
 
-        Toast.makeText(this,"Registered",Toast.LENGTH_SHORT).show();
-    }
+        @Override
+        public Fragment getItem(int position) {
+            return mFragmentList.get(position);
+        }
 
-    @Override
-    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        @Override
+        public int getCount() {
+            return mFragmentList.size();
+        }
 
-        pots = new String(parent.getItemAtPosition(position).toString());
+        public void addFragment(Fragment fragment, String title) {
+            mFragmentList.add(fragment);
+            mFragmentTitleList.add(title);
+        }
 
-
-        Toast.makeText(this,pots,Toast.LENGTH_SHORT).show();
-    }
-
-    @Override
-    public void onNothingSelected(AdapterView<?> parent) {
-
-    }
-
-    public void showRegs(){
-
-        Intent intent = new Intent(this, ShowRegs.class);
-        startActivity(intent);
-    }
-
-    public void teamSelector(){
-
-        Intent intent = new Intent(this, TeamSelector.class);
-        startActivity(intent);
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return mFragmentTitleList.get(position);
+        }
     }
 }
